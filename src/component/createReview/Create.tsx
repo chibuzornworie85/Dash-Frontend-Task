@@ -145,7 +145,7 @@ export const Create: FC = () => {
   return (
     <>
       <div className="bg-[#1D3045] h-[100vh] flex justify-center items-center px-[20px] lg:px-0">
-        <div className="bg-[#FAFCFD] border-[#D4DCF1] flex flex-col gap-4 lg:w-[695px] p-[20px] border rounded-[6px]">
+        <div className="bg-[#FAFCFD] border-[#D4DCF1] flex flex-col gap-4 lg:w-[695px] p-[10px] lg:p-[20px] border rounded-[6px]">
           <div className="flex justify-center font-[500] text-[18px] leading-[24px]">
             <p>
               <p>Review Location</p>

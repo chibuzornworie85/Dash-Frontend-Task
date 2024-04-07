@@ -31,8 +31,7 @@ export const Login: FC = () => {
 
   return (
     <>
-      <div className="flex justify-center bg-[#F5F5F5]">
-        <div className="lg:w-[1240px] w-[343px] lg:h-[100vh]">
+        <div className="lg:h-[100vh] lg:px-[60px] px-[18px] bg-[#F5F5F5]">
           <div className="flex justify-between sticky top-0 pt-[24px]">
             <img src={logoIcon} alt="logo" />
             <div className="flex items-center gap-[13px]">
@@ -93,7 +92,6 @@ export const Login: FC = () => {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };
