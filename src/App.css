@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Inter:wght@200;300;400&display=swap');
+body{
+  font-family: "Inter";
+}
 .just{
   background-color: linear-gradient(180deg, #FAFCFD 9.01%, rgba(250, 252, 253, 0) 22.32%, rgba(250, 252, 253, 0) 66.67%, #FAFCFD 96.46%);
 }
