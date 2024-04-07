@@ -133,7 +133,7 @@ export const Home: FC = () => {
   return (
     <>
       <div className="bg-[#FAFCFD] flex justify-center">
-        <div className="lg:w-[1240px] w-[343px] lg:h-[1024px] bg-[#FAFCFD]">
+        <div className="lg:w-[1240px] w-[330px] lg:h-[1024px] bg-[#FAFCFD]">
           {/* Header Nav */}
           <div className="flex justify-between sticky top-0 bg-[#FAFCFD] pt-[24px] lg:pt-0">
             <img src={logoIcon} alt="logo" />
