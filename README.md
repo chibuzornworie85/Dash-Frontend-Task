@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+                                                            Dash Web App
+Welcome to the Dash Web App! This README will guide you through the steps to get started and effectively navigate the application.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+                                                            Installation
+To run the Dash Web App locally on your machine, follow these steps:
+# Clone the repository to your local machine: git clone <repository-url>
+# Navigate into the project directory: cd <project-directory>
+# Install dependencies using npm: npm start
 
-## Available Scripts
+                                                            Usage
+# Once you have installed the dependencies, you can start the web app by running: 
+ npm start
+ This will start the application on your local server at http://localhost:3000.
 
-In the project directory, you can run:
+                                                            User Guide
+# Login                                                            
+Upon accessing the web app through your browser, you will be greeted with a login page. Ensure you provide a valid email and password. Validation is in place to ensure the entered credentials are correct.
 
-### `npm start`
+# Home Page
+After successful login, you will be directed to the home page. Here, you'll find various navigation options to explore different sections of the app, On the home page, there is a search button. Clicking on this button will take you to the review page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Review Page
+Once you're on the review page, you have the option to leave a review then click on the button to render the review page. Note that there is a "Post as Anonymous" checkbox. Selecting this checkbox enables the submit button, allowing you to post your review anonymously.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+After submitting your review, you'll be directed back to the review page.
